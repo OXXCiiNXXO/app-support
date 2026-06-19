@@ -12,7 +12,7 @@ Static support and privacy pages for apps by Zhou Peichen.
 - Support: `warrilog/support.html`
 - Privacy Policy: `warrilog/privacy.html`
 
-## Pet Care Tracker
+## Pet Wallet
 
-- Support: `pet-care-tracker/support.html`
-- Privacy Policy: `pet-care-tracker/privacy.html`
+- Support: `pet-wallet/support.html`
+- Privacy Policy: `pet-wallet/privacy.html`
