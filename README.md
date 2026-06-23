@@ -16,3 +16,8 @@ Static support and privacy pages for apps by Zhou Peichen.
 
 - Support: `pet-wallet/support.html`
 - Privacy Policy: `pet-wallet/privacy.html`
+
+## Classroom Math Facts
+
+- Support: `classroommathdrill/support.html`
+- Privacy Policy: `classroommathdrill/privacy.html`
