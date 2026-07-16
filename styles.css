@@ -278,10 +278,10 @@ li {
 }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
-  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: var(--max);
   margin: 0 auto;
 }
 
@@ -291,7 +291,7 @@ li {
   gap: 14px;
   background: var(--surface);
   border-radius: 18px;
-  padding: 20px 24px;
+  padding: 22px 24px;
   text-decoration: none;
   color: var(--text);
   transition: background 0.15s;
