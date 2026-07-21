@@ -1,6 +1,6 @@
 # App Support
 
-Static support and privacy pages for apps by Zhou Peichen.
+Static support and privacy pages for apps by CiiN.
 
 ## Gift & IOU Tracker
 

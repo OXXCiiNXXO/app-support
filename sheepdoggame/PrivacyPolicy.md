@@ -105,7 +105,7 @@ SheepDogGame（以下简称"本应用"或"我们"）是一款完全离线运行�
 
 **Effective Date:** July 13, 2026  
 **App Name:** SheepDogGame  
-**Developer:** Zhou Peichen  
+**Developer:** CiiN  
 **Contact:** [developer email]
 
 **Summary:** SheepDogGame is a fully offline iOS casual game. We **do not collect, store, or transmit any personal data or usage data whatsoever**. All game progress is saved locally on your device only.

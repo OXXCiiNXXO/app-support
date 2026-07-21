@@ -88,7 +88,7 @@
 
 **App:** SheepDogGame  
 **Version:** 1.0  
-**Developer:** Zhou Peichen  
+**Developer:** CiiN  
 **Email:** [developer email]  
 **GitHub:** [project URL]
 
