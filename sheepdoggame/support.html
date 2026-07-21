@@ -11,224 +11,106 @@
     <nav class="site-nav" aria-label="Site">
       <a class="brand" href="../index.html">App Support</a>
       <div class="nav-links">
-        <a href="../index.html">← Back to Apps</a>
-        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./support.html">Support</a>
+        <a href="./privacy.html">Privacy</a>
       </div>
     </nav>
   </header>
 
   <main class="page">
-    <article class="legal-content">
-      <h1>支持页面 / Support Page</h1>
-      <p class="meta"><strong>应用：</strong>SheepDogGame（狗赶羊）&nbsp;|&nbsp;<strong>版本：</strong>1.0&nbsp;|&nbsp;<strong>开发者：</strong>周培臣&nbsp;|&nbsp;<strong>邮箱：</strong><a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a></p>
+    <section class="hero">
+      <p class="eyebrow">SheepDogGame（狗赶羊）</p>
+      <h1>支持页面 / Support</h1>
+      <p class="lead">离线休闲游戏，帮你把羊赶拢、消除繁殖、照顾树木。</p>
+      <div class="button-row">
+        <a class="button primary" href="mailto:oxxciinxxo@gmail.com">Email Support</a>
+        <a class="button secondary" href="./privacy.html">隐私政策</a>
+      </div>
+    </section>
 
+    <section class="section section-grid">
+      <h2>Contact</h2>
+      <div>
+        <p>有反馈、建议或问题，欢迎邮件联系 <a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a>。</p>
+        <p class="muted">请附上设备型号、iOS 版本和简要描述。</p>
+      </div>
+    </section>
+
+    <section class="section section-grid">
       <h2>常见问题 FAQ</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>游戏需要联网吗？</h3>
+          <p>完全不需要。SheepDogGame 是纯离线游戏，无需网络连接即可畅玩。没有登录、没有服务器、没有云同步。</p>
+        </div>
 
-      <details open>
-        <summary><strong>Q: 游戏需要联网吗？</strong></summary>
-        <p><strong>A: 完全不需要。</strong> SheepDogGame 是纯离线游戏，无需网络连接即可畅玩。没有登录、没有服务器、没有云同步。</p>
-      </details>
+        <div class="faq-item">
+          <h3>游戏进度怎么保存？</h3>
+          <p>自动保存在设备本地。点击主界面的"继续游戏"或游戏中点击"🏠 家"按钮返回标题时，进度会自动保存到 UserDefaults。卸载应用会清除所有进度。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 游戏进度怎么保存？</strong></summary>
-        <p><strong>A: 自动保存在设备本地。</strong> 点击主界面的"继续游戏"或游戏中点击"🏠 家"按钮返回标题时，进度会自动保存到 <code>UserDefaults</code>。卸载应用会清除所有进度。</p>
-      </details>
+        <div class="faq-item">
+          <h3>怎么重置游戏进度？</h3>
+          <p>两种方法：在标题屏幕点击"新游戏"会重新开始（原进度保留在本地，下次"继续游戏"可恢复），或在 iOS 设置中"删除 App"彻底清除所有本地数据。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 怎么重置游戏进度？</strong></summary>
-        <p><strong>A: 两种方式：</strong></p>
-        <ol>
-          <li>标题屏幕点击"新游戏"会重新开始（原进度保留在本地，下次"继续游戏"可恢复）</li>
-          <li>在 iOS 设置中"删除 App"可彻底清除所有本地数据</li>
-        </ol>
-      </details>
+        <div class="faq-item">
+          <h3>有广告/内购/订阅吗？</h3>
+          <p>完全没有。本应用为买断制/免费应用（视 App Store 定价而定），无广告、无内购、无订阅、无任何付费内容。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 有广告/内购/订阅吗？</strong></summary>
-        <p><strong>A: 完全没有。</strong> 本应用为买断制/免费应用（视 App Store 定价而定），无广告、无内购、无订阅、无任何付费内容。</p>
-      </details>
+        <div class="faq-item">
+          <h3>收集我的个人信息吗？</h3>
+          <p>绝不收集。详见 <a href="./privacy.html">隐私政策</a>。本应用无网络请求，无第三方 SDK，所有数据仅存在您的设备本地。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 收集我的个人信息吗？</strong></summary>
-        <p><strong>A: 绝不收集。</strong> 详见 <a href="./privacy.html">隐私政策</a>。本应用无网络请求，无第三方 SDK，所有数据仅存在您的设备本地。</p>
-      </details>
+        <div class="faq-item">
+          <h3>支持哪些设备？</h3>
+          <p>iPhone 运行 iOS 16+，竖屏模式。iPad 也可运行（竖屏/横屏均支持）。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 支持哪些设备？</strong></summary>
-        <p><strong>A:</strong> iPhone 运行 iOS 16+，竖屏模式。iPad 也可运行（竖屏/横屏均支持）。</p>
-      </details>
+        <div class="faq-item">
+          <h3>游戏卡顿/闪退怎么办？</h3>
+          <p>请尝试完全关闭应用后重新打开、重启设备、确保 iOS 版本 ≥ 16.0。如仍有问题，请邮件联系开发者并提供设备型号、iOS 版本、复现步骤。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 游戏卡顿/闪退怎么办？</strong></summary>
-        <p><strong>A:</strong> 请尝试：</p>
-        <ol>
-          <li>完全关闭应用后重新打开</li>
-          <li>重启设备</li>
-          <li>确保 iOS 版本 ≥ 16.0</li>
-          <li>如仍有问题，请邮件联系开发者并提供：设备型号、iOS 版本、复现步骤</li>
-        </ol>
-      </details>
+        <div class="faq-item">
+          <h3>怎么控制狗？</h3>
+          <p>拖动屏幕任意位置会出现虚拟摇杆，拖动摇杆控制边牧移动。松开手指狗会逐渐减速停下。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 怎么控制狗？</strong></summary>
-        <p><strong>A: 拖动屏幕任意位置</strong>出现虚拟摇杆，拖动摇杆控制边牧移动。松开手指狗会逐渐减速停下。</p>
-      </details>
+        <div class="faq-item">
+          <h3>三只羊有什么区别？</h3>
+          <p>🐑 绵羊（Merino）：蓬松白毛、黑小脸、小卷角。<br>
+             🐐 山羊（Goat）：瘦长白身、白脸、短直立深棕角、有胡须。<br>
+             🏔️ 盘羊（Argali）：最大最壮、大白身、巨大象牙色弯角。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 羊有什么区别？</strong></summary>
-        <p><strong>A: 三个品种，外观与体型不同：</strong></p>
-        <ul>
-          <li>🐑 <strong>绵羊</strong>（Merino）：蓬松白毛、黑小脸、小卷角</li>
-          <li>🐐 <strong>山羊</strong>（Goat）：瘦长白身、白脸、短直立深棕角、有胡须</li>
-          <li>🐏 <strong>盘羊</strong>（Argali）：最大最壮、大白身、巨大象牙色弯角</li>
-        </ul>
-      </details>
+        <div class="faq-item">
+          <h3>怎么触发"相撞消除"和"相爱繁殖"？</h3>
+          <p>💥 <strong>相撞消除：</strong>3 只同品种羊靠近聚拢 → 5 秒倒计时后爆炸消失。<br>
+             💕 <strong>相爱繁殖：</strong>2 只同品种羊靠近 → 5 秒倒计时后爱心诞生小羊（10 秒长大）。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 怎么触发"相撞消除"和"相爱繁殖"？</strong></summary>
-        <p><strong>A:</strong></p>
-        <ul>
-          <li><strong>💥 相撞消除</strong>：3 只<strong>同品种</strong>羊靠近聚拢 → 5 秒倒计时后爆炸消失</li>
-          <li><strong>💕 相爱繁殖</strong>：2 只<strong>同品种</strong>羊靠近 → 5 秒倒计时后爱心诞生小羊（10 秒长大）</li>
-        </ul>
-      </details>
+        <div class="faq-item">
+          <h3>树木会变化吗？</h3>
+          <p>会。树木有完整生命周期：幼苗 🌱 → 成熟 🌳 → 秋天 🍂 → 枯萎 🪵 → 重生 🌱。每阶段约 30 秒，循环往复。</p>
+        </div>
 
-      <details>
-        <summary><strong>Q: 树木会变化吗？</strong></summary>
-        <p><strong>A: 会。</strong> 树木有完整生命周期：幼苗 🌱 → 成熟 🌳 → 秋天 🍂 → 枯萎 🪵 → 重生 🌱。每阶段约 30 秒，循环往复。</p>
-      </details>
+        <div class="faq-item">
+          <h3>左上角的数字是什么意思？</h3>
+          <p>实时统计面板：🐑 总羊数 / 🐑 绵羊 X / 🐐 山羊 Y / 🐏 盘羊 Z，以及 💕 相爱次数、💥 相撞次数。</p>
+        </div>
+      </div>
+    </section>
 
-      <details>
-        <summary><strong>Q: 左上角的数字是什么意思？</strong></summary>
-        <p><strong>A: 实时统计面板：</strong></p>
-        <ul>
-          <li>🐑 总羊数</li>
-          <li>绵:X 山:Y 盘:Z （各品种数量）</li>
-          <li>💕 X 相爱（繁殖次数）</li>
-          <li>💥 X 相撞（消除次数）</li>
-        </ul>
-      </details>
-
-      <h2>反馈与建议</h2>
-      <p>欢迎通过以下方式反馈：</p>
-      <ul>
-        <li><strong>邮件：</strong> <a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a></li>
-        <li><strong>GitHub Issues：</strong> <a href="https://github.com/zpc6589/sheepdoggame">项目地址</a></li>
-        <li><strong>App Store 评论：</strong> 直接在 App Store 留言</li>
-      </ul>
-      <p>我们会认真阅读每一条反馈，但作为个人开发者，回复可能不及时，请见谅。</p>
-
-      <h2>版本历史</h2>
-      <table>
-        <thead>
-          <tr><th>版本</th><th>日期</th><th>变更</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>1.0</td><td>2026-07</td><td>首发：核心玩法、3 种羊、繁殖/消除、树木生命周期、本地存档</td></tr>
-        </tbody>
-      </table>
-
-      <hr>
-
-      <h2>English Version</h2>
-      <h3>Support — SheepDogGame</h3>
-      <p><strong>App:</strong> SheepDogGame<br>
-      <strong>Version:</strong> 1.0<br>
-      <strong>Developer:</strong> CiiN<br>
-      <strong>Email:</strong> <a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a><br>
-      <strong>GitHub:</strong> <a href="https://github.com/zpc6589/sheepdoggame">project URL</a></p>
-
-      <details open>
-        <summary><strong>Q: Does the game require internet?</strong></summary>
-        <p><strong>A: No.</strong> Fully offline. No login, no server, no cloud sync.</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: How is progress saved?</strong></summary>
-        <p><strong>A:</strong> Automatically to local <code>UserDefaults</code>. Tap "Continue Game" on title or "🏠 Home" in-game to save. Uninstalling the app clears all progress.</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: How to reset progress?</strong></summary>
-        <p><strong>A:</strong> Tap "New Game" on title (keeps old save for "Continue"), or delete the app from iOS Settings to wipe all local data.</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: Ads / IAP / Subscriptions?</strong></summary>
-        <p><strong>A:</strong> None. Paid upfront or free (per App Store pricing). No ads, no IAP, no subscriptions.</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: Do you collect my data?</strong></summary>
-        <p><strong>A: Absolutely not.</strong> See <a href="./privacy.html">Privacy Policy</a>. Zero network requests, zero third-party SDKs, all data stays on your device.</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: Supported devices?</strong></summary>
-        <p><strong>A:</strong> iPhone iOS 16+, portrait. iPad also works (portrait/landscape).</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: Game lags / crashes?</strong></summary>
-        <p><strong>A:</strong> Try force-quit & reopen, restart device, ensure iOS ≥ 16.0. If persistent, email developer with device model, iOS version, reproduction steps.</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: How to control the dog?</strong></summary>
-        <p><strong>A:</strong> Drag anywhere on screen → virtual joystick appears → drag joystick to move Border Collie. Release to gradual stop.</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: Sheep differences?</strong></summary>
-        <p><strong>A:</strong> Three breeds, distinct looks:</p>
-        <ul>
-          <li>🐑 Merino: fluffy white, black face, tiny curled horns</li>
-          <li>🐐 Goat: slender white, white face, short straight dark horns, beard</li>
-          <li>🐏 Argali: largest, big white body, massive ivory curved horns</li>
-        </ul>
-      </details>
-
-      <details>
-        <summary><strong>Q: How to trigger collisions / breeding?</strong></summary>
-        <p><strong>A:</strong> <strong>Collision (💥):</strong> 3 same-breed sheep cluster → 5s countdown → explode.<br>
-        <strong>Breeding (💕):</strong> 2 same-breed sheep close → 5s countdown → heart → baby sheep (grows in 10s).</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: Do trees change?</strong></summary>
-        <p><strong>A:</strong> Yes. Full lifecycle: Sapling 🌱 → Mature 🌳 → Autumn 🍂 → Dead 🪵 → Rebirth 🌱. ~30s per stage, loops forever.</p>
-      </details>
-
-      <details>
-        <summary><strong>Q: Top-left numbers?</strong></summary>
-        <p><strong>A:</strong> Live stats: total sheep, per-breed counts, 💕 breeding count, 💥 collision count.</p>
-      </details>
-
-      <h3>Feedback</h3>
-      <ul>
-        <li>Email: <a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a></li>
-        <li>GitHub Issues: <a href="https://github.com/zpc6589/sheepdoggame">project URL</a></li>
-        <li>App Store Review</li>
-      </ul>
-
-      <h3>Changelog</h3>
-      <table>
-        <thead>
-          <tr><th>Version</th><th>Date</th><th>Changes</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>1.0</td><td>2026-07</td><td>Initial: core gameplay, 3 breeds, breeding/collision, tree lifecycle, local save</td></tr>
-        </tbody>
-      </table>
-    </article>
-  </main>
-
-  <footer class="footer">
-    <p>&copy; 2026 CiiN. For support, email <a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a>.</p>
+    <footer class="footer">
+      <p>&copy; 2026 CiiN. For support, email <a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a>.</p>
       <div class="footer-extra">
         <span>🐧 QQ群：<a href="tencent://message?uin=942114199">942114199</a></span>
         <span>💬 <a href="https://m.me/cm/AbanETE4_H8z72TD/?send_source=cm:copy_invite_link" target="_blank" rel="noopener">Messenger</a></span>
       </div>
     </footer>
+  </main>
 </body>
 </html>
