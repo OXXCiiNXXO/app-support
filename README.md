@@ -24,7 +24,7 @@ All app and game support/privacy pages are maintained in this repository. Add ea
 - Support: `classroommathdrill/support.html`
 - Privacy Policy: `classroommathdrill/privacy.html`
 
-## 生命游戏棋
+## 生命游戏棋 · Game of Life: Army Duel
 
 - Support: `gameoflifeduel/support.html`
 - Privacy Policy: `gameoflifeduel/privacy.html`
