@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="生命游戏棋的本地双人对战、Game Center 随机匹配、存档、常见问题与技术支持。">
+  <title>生命游戏棋 · 技术支持</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="网站导航">
+      <a class="brand" href="../index.html">生命游戏棋</a>
+      <div class="nav-links">
+        <a href="./support.html" aria-current="page">技术支持</a>
+        <a href="./privacy.html">隐私政策</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Game of Life · 双人策略棋</p>
+      <h1>生命游戏棋</h1>
+      <p class="lead">与身边的朋友共用一台设备，或通过 Game Center 远程对战。</p>
+      <div class="button-row">
+        <a class="button primary" href="mailto:oxxciinxxo@gmail.com">联系支持</a>
+        <a class="button secondary" href="./privacy.html">隐私政策</a>
+      </div>
+    </section>
+
+    <section class="section section-grid">
+      <h2>开始一盘本地对战</h2>
+      <div>
+        <p>两个人共用一台 iPhone 或 iPad，无需登录或连接网络。当前说明对应 0.1.0 开发测试版，玩法细则仍会根据试玩反馈调整。</p>
+        <ol>
+          <li>将设备横过来，在大厅选择「本地对战」。已有存档时，入口显示「继续本地对战」。</li>
+          <li>按照回合提示，西方和东方轮流在空格部署军队，每方各三支。第六支落定后，棋盘自动演化。</li>
+          <li>按住自己的军队，拖到相邻空格。你走一步，对方走一步；每方各行动五次后，再触发一次演化。</li>
+          <li>对方全灭或认输时获胜。同次双方全灭，或双方整轮跳过后棋盘仍不变时，当前规则判平局。</li>
+        </ol>
+        <div class="callout">
+          <p>第一次试玩，可以让双方各自在远离对手的位置，将三支军队摆成 L 形。相互孤立的军队会在第一次演化中凋亡，这是规则的正常结果。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-grid">
+      <h2>Game Center 远程对战</h2>
+      <div>
+        <p>双方使用各自的设备和不同的 Game Center 账号，在大厅点击「随机匹配」。无需先加好友，也无需输入 IP 地址。</p>
+        <p>没有对手时会保持等待，可以随时取消。匹配成功后，每位玩家只操作自己的阵营。</p>
+        <p>当前远程对局需要双方保持前台在线。连接中断或应用进入后台后，本局停止，不自动判负。回到大厅后，可以重新匹配。</p>
+      </div>
+    </section>
+
+    <section class="section section-grid">
+      <h2>常见问题</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>为什么一直显示“等待玩家”？</h3>
+          <p>Game Center 正在寻找同一游戏中同时参与匹配、版本兼容的玩家。可以继续等待，或取消后稍后重试。等待并不表示已有对手加入。</p>
+        </div>
+        <div class="faq-item">
+          <h3>为什么这一步不能移动？</h3>
+          <p>请确认轮到自己，且上一手已完成同步。只能将己方军队移动到八方向的相邻空格，不能覆盖其他军队或一次跨两格。无效移动不会扣步。也可以先点选军队，再点高亮空格。</p>
+        </div>
+        <div class="faq-item">
+          <h3>本地对局可以保存吗？</h3>
+          <p>当前本地对局会自动保存在这台设备上，回到大厅或重新打开后可以继续。确认重新开局会替换当前对局。本地存档不提供跨设备同步。</p>
+        </div>
+        <div class="faq-item">
+          <h3>为什么重开后提示上次联网对局中断？</h3>
+          <p>上次远程对局尚未结束时应用退出了。当前版本会提示中断，不记录该局胜负，也不自动恢复旧连接。确认提示后可以重新匹配。本地存档不受影响。</p>
+        </div>
+        <div class="faq-item">
+          <h3>Game Center 无法登录或多人功能受限怎么办？</h3>
+          <p>请在系统设置中检查 Game Center 登录状态、网络连接及屏幕使用时间中的多人游戏限制。双方应使用不同账号和相同版本。登录由 Apple 提供，本地对战可以独立使用。</p>
+        </div>
+        <div class="faq-item">
+          <h3>哪里能了解演化规则？</h3>
+          <p>大厅的「棋规与关于」说明邻居计数、出生归属、回合和胜负；「演化沙盘」可以自由布阵，观察下一次演化。Game of Life 的经典 B3/S23 规则是本作的演化基础。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-grid">
+      <h2>联系支持</h2>
+      <div>
+        <p>开发者：CiiN</p>
+        <p>遇到问题或有功能建议，请发送邮件至 <a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a>。</p>
+        <p>请说明设备型号、系统与游戏版本、本地还是远程模式、操作步骤和看到的提示。提供截图前请遮住个人信息。请勿发送 Apple 账号密码或验证码。</p>
+        <p>其他联系方式见 <a href="../index.html#about">App Support 联系页面</a>。</p>
+      </div>
+    </section>
+
+    <section class="section section-grid" lang="en">
+      <h2>English support</h2>
+      <div>
+        <p>This Game of Life strategy game supports two players sharing one iPhone or iPad, plus remote play through Apple Game Center. The current development version uses a Simplified Chinese interface.</p>
+        <p>Choose “本地对战” for local play or “随机匹配” for random matchmaking. Each side places three units; the board evolves, then players alternate five actions each before the next evolution. Drag a unit into a neighboring empty cell.</p>
+        <p>Local matches save on the device. Remote matches require both players to remain online and in the foreground; an interruption stops the match without awarding a win. Return to the lobby to find a new match.</p>
+        <p>For help, email <a href="mailto:oxxciinxxo@gmail.com">oxxciinxxo@gmail.com</a> with your device model, system and app versions, and a description of the problem.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 CiiN. <a href="../index.html">全部应用 / All apps</a> · <a href="./privacy.html">隐私政策 / Privacy</a></p>
+    </footer>
+  </main>
+</body>
+</html>
