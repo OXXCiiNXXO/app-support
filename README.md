@@ -30,3 +30,8 @@ All app and game support/privacy pages are maintained in this repository. Add ea
 - Privacy Policy: `gameoflifeduel/privacy.html`
 - Developer/contact: CiiN — `oxxciinxxo@gmail.com`
 - Site base URL: `https://oxxciinxxo.github.io/app-support/`
+
+## StallDraft (early preview)
+
+- Support: `stalldraft/support.html`
+- Privacy Policy: `stalldraft/privacy.html`
