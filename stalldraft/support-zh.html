@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="摊记 StallDraft 中文帮助：拍照留单、人民币或美元记账、表格导出与完整备份。">
+  <title>摊记 · 使用帮助</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>body{line-height:1.65}h1{line-height:1.18}.lead{line-height:1.6}.button-row{margin-bottom:16px}</style>
+</head>
+<body>
+  <header class="site-header"><nav class="site-nav" aria-label="网站导航">
+    <a class="brand" href="../index.html">App 支持</a>
+    <div class="nav-links"><a href="./support-zh.html" aria-current="page">帮助</a><a href="./privacy-zh.html">隐私</a><a href="./support.html" lang="en">English</a></div>
+  </nav></header>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">摊记 / StallDraft · 开发预览</p>
+      <h1>忙时先拍一张，<br>空下来再补账。</h1>
+      <p class="lead">面向手作市集卖家的轻量账本。拍下售出的商品或价签，稍后补齐整笔金额和收款方式。</p>
+      <div class="button-row"><a class="button primary" href="mailto:oxxciinxxo@gmail.com?subject=StallDraft%20support">邮件联系支持</a><a class="button secondary" href="./privacy-zh.html">隐私说明</a></div>
+      <p class="muted">0.3 开发预览 · 更新于 2026 年 10 月 10 日 · CiiN</p>
+    </section>
+    <section class="section section-grid"><h2>从一笔销售开始</h2><div>
+      <ol>
+        <li>在空白账本选择人民币（CNY）或美元（USD）。点击<strong>拍照留一单</strong>，或<strong>从相册导入</strong>；每张照片生成一笔待补记录。</li>
+        <li>打开记录，按账本币种填写<strong>整笔销售金额</strong>，选择收款方式，需要时添加备注。人民币账本包含微信和支付宝标签，<strong>这里只记录，不发起支付</strong>。</li>
+        <li>点击<strong>保存，补下一笔</strong>，继续整理。缺少金额或收款方式的记录仍为待补，不计入已记录合计。</li>
+        <li>收摊后可导出 CSV 销售表格，并保存包含照片的完整备份。</li>
+      </ol>
+      <p>“看看示例市集”使用虚构数据，不会改动你的真实账本。明确输入 0 才会记为零金额。添加记录后币种固定，更换手机或应用语言不会换算原金额。</p>
+    </div></section>
+    <section class="section section-grid"><h2>保存完整备份</h2><div>
+      <p>打开右上角菜单，选择<strong>备份与帮助 → 保存完整备份</strong>，在系统“文件”中选择保存位置。<code>.stalldraft</code> 文件包含照片、备注、金额和收款方式；开发预览每份备份上限为 100 MB。</p>
+      <p>选择<strong>从备份恢复</strong>并选取文件，先核对市集名称、币种和记录数量，再确认替换。恢复会替换当前账本，不会合并；应用保留最近一次恢复前的本地副本，可通过<strong>找回上次恢复前的账本</strong>恢复。</p>
+      <div class="callout">CSV 表格不含照片，也不能用来恢复账本。完整备份不会由应用加密，请保存在可信的位置。</div>
+    </div></section>
+    <section class="section section-grid"><h2>常见问题</h2><div class="faq">
+      <div class="faq-item"><h3>为什么合计比预想的少？</h3><p>只有同时填写金额和收款方式的记录才计入合计，请检查待补列表。每条记录表示照片对应的整笔销售；一笔包含多件商品时，填写这笔的总金额。</p></div>
+      <div class="faq-item"><h3>不允许相机访问，也能使用吗？</h3><p>可以。选择“从相册导入”，只选你需要的照片。以后需要拍照时，可在 iPhone 设置中打开摊记的相机权限。</p></div>
+      <div class="faq-item"><h3>能在多台设备之间同步吗？</h3><p>当前没有注册账号或应用自动同步。可以手动保存完整备份，再在另一台 iPhone 恢复。iOS 设备备份是否另行包含应用数据，取决于你的设备设置。</p></div>
+      <div class="faq-item"><h3>保存或恢复失败怎么办？</h3><p>请先保留应用，检查手机剩余空间，以及备份是否已在“文件”中完整下载。校验失败的备份不会替换账本。问题仍存在时，请提供应用版本、iOS 版本和操作步骤；通常无需发送完整账本或顾客信息。</p></div>
+      <div class="faq-item"><h3>当前预览版支持什么？</h3><p>支持简体中文和英语、一个人民币或美元账本、拍照与导入、备注、合计、CSV 导出和完整备份。不接入收款，不管理商品目录，不计算利润或税费，不支持退款或拆分付款，当前没有内购。</p></div>
+      <div class="faq-item"><h3>旧备份还能读取吗？</h3><p>0.3 版可读取此前的美元备份。含人民币或新增收款方式的备份需要 0.3 或更高版本，请不要依赖 0.2 版读取这些文件。</p></div>
+    </div></section>
+    <section class="section section-grid"><h2>反馈使用问题</h2><div>
+      <p>联系邮箱：<a href="mailto:oxxciinxxo@gmail.com?subject=StallDraft%20feedback">oxxciinxxo@gmail.com</a>。加入 TestFlight 试用后，也可在 TestFlight 中打开摊记并发送 Beta 反馈。</p>
+      <p>请描述不清楚的步骤、照片或金额是否有误，以及拍照和补账分别花了多久。截图请去除顾客个人信息。应用仍是开发预览，试用时请继续保留你原来的销售记录。</p>
+    </div></section>
+    <footer class="footer"><p>&copy; 2026 CiiN. <a href="./privacy-zh.html">隐私说明</a> · <a href="./support.html" lang="en">English support</a> · <a href="../index.html">全部应用</a></p></footer>
+  </main>
+</body>
+</html>
