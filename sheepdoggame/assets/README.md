@@ -12,3 +12,5 @@ rain.mp4 and snow.mp4: four-second cropped silent excerpts from November 15 isol
 dog.png, sheep.png, summer-tree.png, winter-tree.png, daisies.png, fence.png: original game-art cutouts used in the owner's promotional assets, unchanged. They decorate the website; page weather buttons are explicitly not game controls.
 
 All media was checked for unrelated personal information. No third-party embeds or tracking. Reduced-motion preference disables automatic motion. The global motion button enables or pauses motion; videos pause offscreen. Original full-resolution promo and game source are not published here.
+
+Chinese heading: Noto Serif SC 600, title-only 5.7 KB subset served locally; Google Fonts / SIL Open Font License (see OFL-NotoSerifSC.txt). Persistent posters cover initial loading and source switches until a decoded frame is available. Failed media retains its poster with an accessible retry button.

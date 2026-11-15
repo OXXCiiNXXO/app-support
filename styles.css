@@ -375,3 +375,20 @@ li {
 .weather-atmosphere{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:0}.weather-rain .weather-atmosphere{opacity:.22;background-image:repeating-linear-gradient(104deg,transparent 0 78px,#f9ffff 80px 81px,transparent 83px 175px);background-size:175px 200px}.weather-snow .weather-atmosphere{opacity:.65;background-image:radial-gradient(circle,#fff 0 2px,transparent 3px),radial-gradient(circle,#fff 0 1px,transparent 2px);background-size:89px 131px,151px 173px;background-position:0 0,50px 60px}
 @keyframes weatherfall{to{background-position:30px 400px,80px 460px}}@media(prefers-reduced-motion:no-preference){.weather-rain .weather-atmosphere,.weather-snow .weather-atmosphere{animation:weatherfall 12s linear infinite}.motion-stopped .weather-atmosphere{animation:none!important}}@media(prefers-reduced-motion:reduce){.game-page{transition:none}}
 @media(max-width:760px){.ranch-hero{grid-template-columns:1fr;gap:20px;padding-top:22px}.ranch-hero h1{font-size:40px}.ranch-friends{justify-content:center;height:85px;margin-top:18px}.ranch-friends img{max-height:85px;width:auto}.ranch-friends img:nth-child(2){max-height:67px;width:auto}.ranch-friends img:nth-child(3){max-height:45px;width:auto}.weather-choice{margin-top:20px}.weather-choice div{justify-content:center}.film-house{max-width:340px;border-width:7px;border-radius:27px}.film-house video{height:auto;max-height:480px}.film-label{padding:9px}.film-house p{font-size:10px;padding:10px}.ranch-motion{font-size:10px;margin-left:9px;padding:6px;max-width:70px}.game-page .nav-links a:first-child{display:none}.game-page .field-ribbon{padding:14px;font-size:12px}.ranch-tree{width:120px;height:150px;opacity:.4}.tree-a{left:-16px;top:1400px}.tree-b{right:-12px;top:2600px}.ranch-page:before{left:40%;width:70px;top:900px;transform:rotate(2deg)}.ranch-demo .scene-menu{grid-template-columns:repeat(3,1fr)}.ranch-demo .scene-menu button{min-height:40px}.ranch-demo .field-screen{aspect-ratio:1.05}.game-page .field-wander{padding:23px}.game-page .game-faq{padding:28px 23px}.game-page .game-end{border-width:5px}.ranch-fence{max-width:280px;height:55px;background-size:90px 65px}}
+
+/* Persistent posters prevent WebKit's blank frame during media source changes. */
+@font-face{font-family:MeadowTitleSC;src:url("sheepdoggame/assets/meadow-title-sc.ttf") format("truetype");font-style:normal;font-weight:600;font-display:swap}
+html[lang="zh-Hans"] .game-page h1,.game-page:lang(zh-Hans) h1{font-family:MeadowTitleSC,"Songti SC","STSong",serif;font-weight:600}
+.media-shell{position:relative;background-position:center;background-repeat:no-repeat;background-size:cover}
+.film-screen{height:510px;background-color:#0c1e25;background-size:contain}
+.film-screen video{height:100%;width:100%}
+.media-shell.media-enhanced video{opacity:0}
+.media-shell.media-enhanced.has-frame video{opacity:1}
+.media-state{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);border:1px solid #fff9;border-radius:24px;background:#173c30ec;color:#fff7df;padding:12px 18px;font:500 13px -apple-system,sans-serif;min-height:44px;max-width:85%;cursor:pointer;box-shadow:0 3px 15px #0002}
+.media-state[hidden],.is-photo .media-state{display:none}
+.media-shell.is-photo{background-image:none!important}
+@media(max-width:760px){.film-screen{height:auto;aspect-ratio:9/16;max-height:480px}.film-house .film-screen video{height:100%;position:absolute;inset:0}}
+
+.film-house .film-screen{width:100%}.film-house .film-screen video{width:100%;max-width:none}@media(max-width:760px){.film-house .film-screen{max-height:none}.film-house .film-screen video{max-height:none;object-fit:contain}}
+
+.media-state{display:none}.media-enhanced .media-state{display:block}.media-enhanced .media-state[hidden],.media-enhanced.is-photo .media-state{display:none}
