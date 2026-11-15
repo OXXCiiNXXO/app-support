@@ -14,3 +14,8 @@ dog.png, sheep.png, summer-tree.png, winter-tree.png, daisies.png, fence.png: or
 All media was checked for unrelated personal information. No third-party embeds or tracking. Reduced-motion preference disables automatic motion. The global motion button enables or pauses motion; videos pause offscreen. Original full-resolution promo and game source are not published here.
 
 Chinese heading: Noto Serif SC 600, title-only 5.7 KB subset served locally; Google Fonts / SIL Open Font License (see OFL-NotoSerifSC.txt). Persistent posters cover initial loading and source switches until a decoded frame is available. Failed media retains its poster with an accessible retry button.
+
+
+birth.mp4: 9.5-second silent excerpt (31–40.5 seconds) from the November 7 isolated Build 49 simulator recording. Native breeding heart progresses and a lamb is born; no scripted spawning or replacement. Cropped to 640 x 704, H.264 24 fps, faststart. birth-poster.jpg is an extracted frame.
+
+arranged-meadow.jpg: full native whole-meadow postcard from November 14, the first open-layout version explicitly selected by the owner. Reduced to 1080 x 1200 without compositing or removing objects. Dedicated filming save uses normally obtainable non-paid decorations staged for the shoot; the caption labels it a staged layout example. No claim of ordinary acquisition during that session.

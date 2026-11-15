@@ -392,3 +392,5 @@ html[lang="zh-Hans"] .game-page h1,.game-page:lang(zh-Hans) h1{font-family:Meado
 .film-house .film-screen{width:100%}.film-house .film-screen video{width:100%;max-width:none}@media(max-width:760px){.film-house .film-screen{max-height:none}.film-house .film-screen video{max-height:none;object-fit:contain}}
 
 .media-state{display:none}.media-enhanced .media-state{display:block}.media-enhanced .media-state[hidden],.media-enhanced.is-photo .media-state{display:none}
+
+.ranch-demo .scene-menu{grid-template-columns:repeat(3,1fr)}.arranged-story img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center}.arranged-story figcaption{position:static;border-radius:0;margin:0;padding:12px 16px;text-align:center;background:#f9f4df}
