@@ -352,3 +352,58 @@ li {
     margin-right: 0;
   }
 }
+
+/* Product presentation: scoped additions reuse the shared site theme. */
+.game-page { --max: 1160px; }
+.game-page .site-nav { min-height: 70px; }
+.game-brand { display:flex; align-items:center; gap:10px; }
+.game-brand img { border-radius:9px; }
+.game-skip { position:absolute; left:16px; top:-100px; z-index:30; background:var(--bg); padding:12px; }
+.game-skip:focus { top:8px; }
+.game-page a:focus-visible, .game-page summary:focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
+.game-hero { display:grid; grid-template-columns:1.05fr .85fr; gap:64px; align-items:center; padding:64px 0 72px; }
+.game-intro .eyebrow, .game-play .eyebrow { font-size:12px; letter-spacing:.14em; margin-bottom:22px; }
+.game-intro h1 { font-size:clamp(42px,5.3vw,68px); line-height:1.09; margin-bottom:22px; }
+.game-subtitle { font-size:16px; font-weight:600; margin-bottom:16px; }
+.game-intro .lead { font-size:21px; line-height:1.55; }
+.game-page .button { min-height:46px; }
+.game-page figure { margin:0; }
+.game-cover img { display:block; width:100%; height:auto; border-radius:22px; border:1px solid var(--line); }
+.game-cover figcaption { margin-top:12px; color:var(--muted); font-size:12px; text-align:center; }
+.game-facts { list-style:none; margin:22px 0 0; display:flex; flex-wrap:wrap; gap:8px 18px; color:var(--muted); font-size:13px; }
+.game-facts li { margin:0; }
+.game-facts li::before { content:'✓ '; }
+.game-page .section { padding:56px 0; scroll-margin-top:90px; }
+.game-page h2 { font-size:clamp(28px,3.3vw,40px); line-height:1.2; }
+.game-section-intro { max-width:690px; color:var(--muted); margin-top:20px; }
+.game-steps { display:grid; grid-template-columns:repeat(3,1fr); gap:36px; margin-top:42px; }
+.game-number { display:block; font-size:13px; color:var(--muted); margin-bottom:18px; }
+.game-steps h3 { font-size:23px; line-height:1.2; margin-bottom:14px; }
+.game-steps p { color:var(--muted); }
+.game-gallery { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:32px; }
+.game-gallery figure { background:var(--surface); border-radius:18px; overflow:hidden; }
+.game-gallery img { display:block; width:100%; height:auto; }
+.game-gallery figcaption { padding:20px; font-size:15px; }
+.game-page .section-grid { grid-template-columns:1fr 1.3fr; gap:60px; }
+.game-page .section-grid p { color:var(--muted); font-size:19px; line-height:1.6; }
+.game-faq h2 { margin-bottom:28px; }
+.game-faq details { border-top:1px solid var(--line); padding:20px 0; }
+.game-faq summary { cursor:pointer; font-weight:600; font-size:19px; padding:4px 0; }
+.game-faq details p { color:var(--muted); line-height:1.65; max-width:850px; margin:18px 0 0; }
+.game-end { text-align:center; }
+.game-end p { color:var(--muted); margin:20px 0 24px; }
+.game-source { margin-top:24px; max-width:760px; }
+@media(max-width:760px) {
+ .game-hero { grid-template-columns:1fr; gap:32px; padding:40px 0; }
+ .game-intro h1 { font-size:clamp(40px,9vw,64px); }
+ .game-cover { max-width:500px; margin:auto!important; }
+ .game-page .section { padding:38px 0; }
+ .game-steps { grid-template-columns:1fr; gap:24px; margin-top:28px; }
+ .game-steps article { border-top:1px solid var(--line); padding-top:20px; }
+ .game-number { margin-bottom:8px; }
+ .game-gallery { gap:12px; }
+ .game-gallery figcaption { padding:14px; font-size:13px; }
+ .game-page .section-grid { grid-template-columns:1fr; gap:20px; }
+ .game-intro .lead { font-size:20px; }
+ .game-page .site-nav { min-height:60px; }
+}

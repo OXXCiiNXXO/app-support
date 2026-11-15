@@ -35,3 +35,12 @@ All app and game support/privacy pages are maintained in this repository. Add ea
 
 - Support: `stalldraft/support.html`
 - Privacy Policy: `stalldraft/privacy.html`
+
+## Sheep Dog: A Cozy Meadow / 狗赶羊
+
+- Chinese introduction: `sheepdoggame/index.html`
+- English introduction: `sheepdoggame/en.html`
+- Sitemap: `sheepdoggame/sitemap.xml`
+- Existing `support.html` and `privacy.html` URLs are preserved.
+- Product copy checked against the public US App Store listing (ID 6809808103, version 1.2.3) on 2026-11-15. Screenshots and icon in `sheepdoggame/assets/` come from that game's public Apple listing, used for the developer's own introduction page. They are not mockups of unreleased features.
+- Keep both languages independently accessible; do not auto-redirect by browser language. New presentation styles are scoped under `.game-page` in the shared stylesheet.
