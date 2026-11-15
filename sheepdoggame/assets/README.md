@@ -2,10 +2,13 @@
 
 Still images icon.jpg, meadow.jpg, arrange.jpg and hike.jpg are from this app's public App Store listing (ID 6809808103).
 
-herding.mp4: 11-second cropped silent excerpt of a September 2026 isolated simulator recording (Build 46). Sheep gather, bloom and return home in a prearranged meadow. This take shows live simulation, not manual steering. Source interval 164–175 seconds from the original English filming session.
+herding.mp4: 11-second cropped silent excerpt of September 2026 isolated simulator Build 46. Sheep gather, bloom and return home in a prearranged meadow. This shows live simulation, not manual steering. Source interval 164–175 seconds.
+carry.mp4: 6-second cropped silent excerpt at 80.2 seconds from September 29 Build 46, showing the collie carrying the sheepfold.
 
-carry.mp4: 6-second cropped silent excerpt at 80.2 seconds of the September 29, 2026 Build 46 recording, showing the collie carrying the sheepfold after Carry had been learned.
+weather-film.mp4: owner-authorized 24-second November 15 promotional film "Do Not Shake the Meadow", compressed to 540 x 960 H.264, 24 fps, no audio, faststart (~1.1 MB). The glass globe and rotating miniature are editorial artwork, NOT a playable game feature. The central rain/snow section is actual simulator footage. This distinction is prominently labeled in both languages.
 
-Both clips depict mechanics described by the currently published App Store listing, but are not recordings of the current release. The page labels this explicitly. No objects were inserted, replaced or animated in editing. Cropping, scaling and H.264 compression only; no audio track. Posters are extracted actual frames.
+rain.mp4 and snow.mp4: four-second cropped silent excerpts from November 15 isolated Build 49 recordings, 640 x 704, 24 fps, faststart (~121 KB / 103 KB). No objects were inserted or replaced. These depict existing weather, not recordings of the latest release. Posters are extracted frames.
 
-Videos are 640 x 704, 24 fps, with faststart; roughly 144 KB and 93 KB. Only the chosen video loads. Reduced-motion preference disables automatic playback; explicit play remains available. Video pauses out of view. No tracking or third-party embeds.
+dog.png, sheep.png, summer-tree.png, winter-tree.png, daisies.png, fence.png: original game-art cutouts used in the owner's promotional assets, unchanged. They decorate the website; page weather buttons are explicitly not game controls.
+
+All media was checked for unrelated personal information. No third-party embeds or tracking. Reduced-motion preference disables automatic motion. The global motion button enables or pauses motion; videos pause offscreen. Original full-resolution promo and game source are not published here.
